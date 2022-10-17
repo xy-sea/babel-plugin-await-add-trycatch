@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-await-add-trycatch",
+  "version": "1.0.0",
+  "description": "Babel plugin helps automatically add try catch when async await; 自动给async await 添加try catch",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel-plugin-await-add-trycatch",
+    "add try catch",
+    "async await add try catch",
+    "async await add try/catch"
+  ],
+  "author": "海阔天空",
+  "license": "ISC",
+  "dependencies": {
+    "babel-template": "^6.26.0",
+    "deepmerge": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xy-sea/babel-plugin-await-add-trycatch.git"
+  }
+}
