@@ -18,9 +18,9 @@ module.exports = {
     [
       require('babel-plugin-await-add-trycatch'),
       {
-        exclude: ['build'],
-        include: ['main.js'],
-        customLog: 'My customLog'
+        exclude: ['build'], // 默认值 ['node_modules']
+        include: ['main.js'], // 默认值 []
+        customLog: 'My customLog' // 默认值 'Error'
       }
     ]
   ]
